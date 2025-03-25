@@ -1,0 +1,183 @@
+#home {
+    text-align: center;
+   background-image: url("pngtree-textured-background-tranquil-blue-tablecloth-image_13757229.png");
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding: 50px;
+    border: 5px  solid #00214A;
+    margin: auto;
+    
+}
+
+
+/* Estilos para el menú horizontal */
+.Menú {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Hace que los ítems estén en línea, creando un menú horizontal */
+    background-color: #333;
+    font-size: 25px;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block; /* Hace que el menú aparezca en bloques */
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: white; /* Cambia el fondo al pasar el mouse */
+
+}
+footer {
+    display: flex;
+}
+
+.subtitulo {
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main{
+    background-image: url("madera.jpg");
+}
+
+.item {
+    display: flex; /* Utiliza Flex para alinear elementos en una fila */
+    align-items: center; /* Centrar */
+    border: 5px solid black;
+}
+
+.Imagenes {
+    width: auto; /* Ajusta el tamaño de las imágenes */
+    height: auto; /* Mantiene la relación de aspecto */
+    margin-right: 50px; /* Espacio entre la imagen y la tabla */
+}
+
+.Tabla {
+    display: flex;
+    border-collapse: collapse;/* Estilo de tabla */
+    margin-right: 50px;/* Espacio entre la tabla y las listas */
+    text-align: center;
+}
+
+.Tabla td {
+    border: 3px solid #ddd; /* Bordes de celda */
+    padding: 20px; /* Espaciado interno */
+    font-size: 30px;
+}
+.Lista0 {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border: 5px solid #01839d;
+    background-color: beige;
+}
+
+.Lista2 {
+    font-size: 25px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin: auto;
+    border: 5px solid black;
+    background-color:#aacfe2;
+
+}
+
+.Lista1 {
+    font-size: 25px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin: auto;
+    list-style-type: square;
+    border: 5px solid black;
+    background-color:#aacfe2;
+
+}
+
+.titulo {
+    font-size: 25px;
+    
+}
+
+.links{
+    font-size: 0.5em ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.links:visited {
+    color: blue;
+    
+
+}
+
+.a{
+    background-color:#c2d2e9;
+}
+
+.b{
+    background-color:#e1ebec;
+}
+
+.total {
+    background-color: #A7D1D2;
+}
+#formulario {
+    padding-bottom: 30px;
+    margin-right:600px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+.calorias {
+    background-color:#b1d3e3;
+}
+#Espaguetis {
+    background-color: aquamarine;
+}
+
+#redes {
+    list-style-type: square;
+    font-size: 35px
+}
+#nombre {
+    font-size: 20px;
+}
+#email {
+    font-size: 20px;
+}
+#telefono {
+    font-size: 20px;
+}
+
+#dirección {
+    font-size: 20px;
+}
+#boton {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+#boton:hover {
+    background-color:skyblue;
+}
+#footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:  5px  solid black;
+    background-image: url("soft-light-wood-planks-natural-600nw-2317788741.webp");
+}
+
+
+
+
+
+
+
+
